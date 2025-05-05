@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1746433072 source:c:\users\local\documents\github\pp123456\lab18\12_1\main.c
+	<stdio.h>
+	<stdlib.h>
+
