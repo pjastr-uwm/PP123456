@@ -16,9 +16,11 @@ int main()
     list->next->next->next = malloc(sizeof(struct element));
     list->next->next->next->x = -12;
     list->next->next->next->next = NULL;
+    printf("head: %p\n", list);
     struct element * ptr = list->next;
+
     while(ptr != NULL){
-        printf("%d\n", ptr->x);
+        printf("%p %d\n", ptr, ptr->x);
         ptr = ptr->next;
     }
     return 0;
