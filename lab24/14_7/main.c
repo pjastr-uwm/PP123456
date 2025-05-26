@@ -28,5 +28,6 @@ int main()
 {
     struct element * list = createNoHead();
     printListWithoutHead(list);
+
     return 0;
 }
